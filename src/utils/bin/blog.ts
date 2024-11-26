@@ -1,5 +1,4 @@
 import { getBlog,readBlog } from '../../api';
-import config from '../../../config.json';
 
 export const blog = async (
   args: string[]): Promise<string> => {
