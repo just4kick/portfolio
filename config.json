@@ -1,9 +1,11 @@
 {
-  "bioUrl": "https://raw.githubusercontent.com/m4tt72/m4tt72/master/README.md",
+  "bioUrl": "https://raw.githubusercontent.com/just4kick/webCLI/refs/heads/v2/about.md",
+  "blogUrl":"https://raw.githubusercontent.com/just4kick/blog/refs/heads/master/",
+  "indexList":"listup.json",
   "social": {
-    "instagram": "m4tt72",
-    "github": "m4tt72",
-    "linkedin": "yassinefathi"
+    "instagram": "sumit_bluetick",
+    "github": "just4kick",
+    "linkedin": "sumitshar16"
   },
   "theme": "gruvboxdark",
   "border": true

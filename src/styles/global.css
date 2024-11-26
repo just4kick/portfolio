@@ -20,6 +20,17 @@ div#__next > div {
   height: 100%;
   overflow: auto;
 }
+@media (min-width: 420px) and (max-width: 780px) {
+  html,
+  body,
+  body > div:first-child,
+  div#__next,
+  div#__next > div {
+    height: 100%;
+  overflow:auto;
+    display:inline;
+  }
+}
 
 ::-webkit-scrollbar {
   width: 10px;

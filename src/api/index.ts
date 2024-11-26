@@ -28,3 +28,30 @@ export const getQuote = async () => {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
+
+
+//blogging function
+
+export const getBlog = async () => {
+  const apiUrl=config.blogUrl+config.indexList;
+   try {
+     const response = await fetch(apiUrl);
+     if (!response.ok) {
+       throw new Error(`HTTP error! Status: ${response.status}`);
+     }
+     const data = await response.json();
+     return data;
+ 
+   } catch (error) {
+     return "Error fetching data:"
+   }
+ };
+ 
+ export const readBlog = async (filename:string) => {
+   const { data } = await axios.get(config.blogUrl+filename);
+ 
+   return data;
+ };
+ 
+
+

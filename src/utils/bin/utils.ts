@@ -12,7 +12,7 @@ export const echo = async (args: string[]): Promise<string> => {
 };
 
 export const whoami = async (_args: string[]): Promise<string> => {
-  return 'guest';
+  return 'visitor';
 };
 
 export const date = async (_args: string[]): Promise<string> => {
@@ -20,15 +20,15 @@ export const date = async (_args: string[]): Promise<string> => {
 };
 
 export const gui = async (_args: string[]): Promise<string> => {
-  window.open('https://m4tt72.com', '_self');
+  // window.open('https://m4tt72.com', '_self');
 
-  return 'Opening GUI version...';
+  return 'underdevelopment';
 };
 
 export const email = async (_args: string[]): Promise<string> => {
-  window.open('mailto:hi@m4tt72.com');
+  // window.open('mailto:hi@m4tt72.com');
 
-  return 'Opening mailto:hi@m4tt72.com...';
+  return 'sumitshar16@gmail.com';
 };
 
 export const vi = async (_args: string[]): Promise<string> => {
@@ -66,18 +66,15 @@ export const donate = async (_args?: string[]): Promise<string> => {
 };
 
 export const banner = (_args?: string[]): string => {
-  return `
-███╗   ███╗██╗  ██╗████████╗████████╗███████╗██████╗
-████╗ ████║██║  ██║╚══██╔══╝╚══██╔══╝╚════██║╚════██╗
-██╔████╔██║███████║   ██║      ██║       ██╔╝ █████╔╝
-██║╚██╔╝██║╚════██║   ██║      ██║      ██╔╝ ██╔═══╝
-██║ ╚═╝ ██║     ██║   ██║      ██║      ██║  ███████╗
-╚═╝     ╚═╝     ╚═╝   ╚═╝      ╚═╝      ╚═╝  ╚══════╝ v${packageJson.version}
-
-Type 'help' to see list of available commands.
-
---
-The project is open-source 🎉 type 'repo' to check out the repository.
---
-`;
-};
+  return`
+ +==============================================+
+ |      _           _   _  _   _    _      _    |
+ |     | |         | | | || | | |  (_)    | |   |
+ |     | |_   _ ___| |_| || |_| | ___  ___| | __|
+ | _   | | | | / __| __|__   _| |/ / |/ __| |/ /|
+ || |__| | |_| \\__ \\ |_   | | |   <| | (__|   < |
+ | \\____/ \\__,_|___/\\__|  |_| |_|\\_\\_|\\___|_|\\_\\|
+ +==============================================+
+ Type 'help' to see list of available commands.
+ `;
+ };
