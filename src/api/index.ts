@@ -33,7 +33,7 @@ export const getQuote = async () => {
 //blogging function
 
 export const getBlog = async () => {
-  const apiUrl=config.blogUrl+config.indexList;
+  const apiUrl=config.blogmetaUrl+config.indexList;
    try {
      const response = await fetch(apiUrl);
      if (!response.ok) {

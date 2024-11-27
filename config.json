@@ -1,12 +1,14 @@
 {
-  "bioUrl": "https://raw.githubusercontent.com/just4kick/webCLI/refs/heads/v2/about.md",
+  "bioUrl": "https://raw.githubusercontent.com/just4kick/blog/refs/heads/master/profile/about.txt",
+  "blogmetaUrl":"https://raw.githubusercontent.com/just4kick/blog/refs/heads/master/metadata/",
   "blogUrl":"https://raw.githubusercontent.com/just4kick/blog/refs/heads/master/",
-  "indexList":"listup.json",
+  "randomUrl":"https://www.youtube.com/watch?v=eYSaHXXFIBU",
+  "indexList":"list.json",
   "social": {
     "instagram": "sumit_bluetick",
     "github": "just4kick",
     "linkedin": "sumitshar16"
   },
-  "theme": "gruvboxdark",
+  "theme": "seti",
   "border": true
 }

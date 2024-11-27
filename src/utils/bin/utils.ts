@@ -1,4 +1,6 @@
 import packageJson from '../../../package.json';
+import config from '../../../config.json';
+
 import * as bin from './index';
 
 export const help = async (_args: string[]): Promise<string> => {
@@ -22,7 +24,7 @@ export const date = async (_args: string[]): Promise<string> => {
 export const gui = async (_args: string[]): Promise<string> => {
   // window.open('https://m4tt72.com', '_self');
 
-  return 'underdevelopment';
+  return 'under-development';
 };
 
 export const email = async (_args: string[]): Promise<string> => {
@@ -45,7 +47,7 @@ export const emacs = async (_args?: string[]): Promise<string> => {
 
 export const sudo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    window.open(config.randomUrl);
   }, 1000);
 
   return `Permission denied: unable to run the command '${args[0]}' as root.`;
@@ -53,17 +55,17 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 export const repo = async (_args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://github.com/m4tt72/terminal', '_blank');
+    window.open('https://github.com/just4kick/portfolio', '_blank');
   }, 1000);
 
   return 'Opening repository...';
 };
 
-export const donate = async (_args?: string[]): Promise<string> => {
-  window.open(packageJson.funding.url, '_blank');
+// export const donate = async (_args?: string[]): Promise<string> => {
+//   window.open(packageJson.funding.url, '_blank');
 
-  return 'Opening donation url...';
-};
+//   return 'Opening donation url...';
+// };
 
 export const banner = (_args?: string[]): string => {
   return`

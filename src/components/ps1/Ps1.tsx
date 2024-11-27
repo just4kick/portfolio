@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { useTheme } from '../../utils/themeProvider';
 
 export const Ps1 = () => {
-  const [hostname, setHostname] = useState('');
+  // const [hostname, setHostname] = useState('');
   const { theme } = useTheme();
 
-  useEffect(() => {
-    setHostname(window.location.hostname);
-  }, []);
+  // useEffect(() => {
+  //   setHostname(window.location.hostname);
+  // }, []);
 
   return (
     <div>
@@ -16,7 +16,7 @@ export const Ps1 = () => {
           color: theme.yellow,
         }}
       >
-        guest
+        just4kick
       </span>
       <span
         style={{
@@ -30,7 +30,7 @@ export const Ps1 = () => {
           color: theme.green,
         }}
       >
-        {hostname}
+        {/* {hostname} */}guest-mode
       </span>
       <span
         style={{
