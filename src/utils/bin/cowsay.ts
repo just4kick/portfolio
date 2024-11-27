@@ -5,7 +5,7 @@ export const cowsay = async (args?: string[]): Promise<string> => {
   let output = '';
 
   if (args.length < 1 || args[0] === '') {
-    const quote = (await getQuote()).quote;
+    const quote = (await getQuote()).joke;
     return cow.say({ text: quote });
   } else {
     output = args.join(' ');
