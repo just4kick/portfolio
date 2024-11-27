@@ -1,4 +1,3 @@
-import packageJson from '../../../package.json';
 import config from '../../../config.json';
 
 import * as bin from './index';
