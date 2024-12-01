@@ -23,7 +23,7 @@ div#__next > div {
   height: 100%;
   overflow: auto;
 }
-@media (min-width: 420px) and (max-width: 780px) {
+@media (min-width: 400px) and (max-width: 780px) {
   html,
   body,
   body > div:first-child,
