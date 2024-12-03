@@ -15,7 +15,6 @@ const App = ({ Component, pageProps }) => {
   const onClickAnywhere = () => {
     inputRef.current.focus();
   };
-
   useEffect(() => {
     localStorage.setItem('visitedAt', new Date().toString());
   }, []);

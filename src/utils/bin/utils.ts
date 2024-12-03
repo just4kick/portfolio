@@ -21,9 +21,12 @@ export const date = async (_args: string[]): Promise<string> => {
 };
 
 export const gui = async (_args: string[]): Promise<string> => {
-  // window.open('https://m4tt72.com', '_self');
+  setTimeout(function () {
+    window.open('https://portfoliogui-woad.vercel.app/', '_blank');
+  }, 1000);
 
-  return 'under-development';
+
+  return 'Loading ...';
 };
 
 export const email = async (_args: string[]): Promise<string> => {
